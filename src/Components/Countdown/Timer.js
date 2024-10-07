@@ -53,7 +53,7 @@ class CountDown extends Component {
     return (
       <div id="countdown"  className="countdown ">
         <div className="col-4">
-          <div className="box">
+          <div className=" box">
             <p id="day">{days}</p>
             <span className="text">Days</span>
           </div>

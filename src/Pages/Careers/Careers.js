@@ -7,7 +7,7 @@ const Careers = () => {
   return (
     <div className="flex flex-col text-center justify-center min-h-screen bg-blue-100">
       <div className="m-10 md:m-20">
-        <h1 className="text-3xl md:text-5xl font-bold">
+        <h1 className="text-3xl md:text-6xl lg:tracking-widest font-bold">
           Website
           <br />
           Coming Soon
