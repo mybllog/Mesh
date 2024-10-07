@@ -1,9 +1,9 @@
 import React from 'react'
 import img1 from "../assets/images/Rectangle 30.png"
-import img2 from "../assets/images/Rectangle 34.png"
-import img3 from "../assets/images/wire.png"
-import img4 from "../assets/images/Rectangle 33.png"
-import img5 from "../assets/images/Rectangle 33 (1).png"
+import img2 from "../assets/images/Rectangle 34 (7).png"
+import img3 from "../assets/images/Rectangle 32 (2).png"
+import img4 from "../assets/images/Rectangle 33 (5).png"
+import img5 from "../assets/images/Rectangle 33 (6).png"
 
 const About = () => {
   return (
@@ -23,7 +23,7 @@ const About = () => {
             </p>
           </div>
           <div className='mt-6 lg:mt-0'>
-            <img src={img1} alt='Mission' className='w-full max-w-md'/>
+            <img src={img1} alt='Mission' className='w-full max-w-md  opacity-90'/>
           </div>
         </div>
       </div>
