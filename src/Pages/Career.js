@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
 import img1 from "../assets/images/Rectangle 30 (1).png";
-import img2 from "../assets/images/Rectangle 34 (1).png";
-import img3 from "../assets/images/Rectangle 34 (2).png";
-import img4 from "../assets/images/Rectangle 34 (3).png";
-import img5 from "../assets/images/Rectangle 34 (5).png";
+import img2 from "../assets/images/Rectangle 34 (8).png";
+import img3 from "../assets/images/Rectangle 34 (11).png";
+import img4 from "../assets/images/Rectangle 34 (9).png";
+import img5 from "../assets/images/Rectangle 34 (10).png";
 import img6 from "../assets/images/Cards (1).png";
 import { NavLink } from 'react-router-dom';
 
