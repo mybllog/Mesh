@@ -3,7 +3,7 @@ import img1 from "../assets/images/Rectangle 30.png"
 import img2 from "../assets/images/Rectangle 34 (7).png"
 import img3 from "../assets/images/Rectangle 32 (2).png"
 import img4 from "../assets/images/Rectangle 33 (5).png"
-import img5 from "../assets/images/Rectangle 33 (6).png"
+import img5 from "../assets/images/Rectangle 33 (3).png"
 
 const About = () => {
   return (
@@ -72,7 +72,7 @@ const About = () => {
       </div>
 
       {/* Team Section */}
-      <div className='lg:flex lg:space-x-12 my-8 px-6 lg:px-20'>
+      <div className='hidden lg:flex lg:visible md:visible lg:space-x-12 my-8 px-6 lg:px-20'>
         <div className='w-full lg:w-1/2'>
           <img src={img4} alt='Our Team' className='w-full h-auto'/>
         </div>
@@ -86,6 +86,23 @@ const About = () => {
             that collaboration, creativity, and a shared mission drive our success, enabling us to 
             consistently exceed client expectations and foster long-lasting partnerships.
           </p>
+        </div>
+      </div>
+
+      <div className=' lg:hidden my-8 px-6  md:hidden'>
+        <div className='lg:w-1/2 mt-8 lg:mt-16'>
+          <p className='text-[#EC5A1C] font-bold font-newRomain text-base leading-5'>
+            Our Team
+          </p>
+          <p className='mt-4 text-black font-Opensans font-semibold text-sm'>
+            Our team is made up of diverse, highly skilled professionals with expertise across various 
+            industries who share a passion for innovation and delivering exceptional results. We believe 
+            that collaboration, creativity, and a shared mission drive our success, enabling us to 
+            consistently exceed client expectations and foster long-lasting partnerships.
+          </p>
+        </div>
+        <div className='w-full lg:w-1/2 my-8 '>
+          <img src={img4} alt='Our Team' className='w-full h-auto'/>
         </div>
       </div>
 

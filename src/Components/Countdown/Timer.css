@@ -4,11 +4,15 @@
     background-color: rgba(255, 255, 255, 0.1);
     display: flex;
     text-align: center;
+    justify-content: center;
     margin: auto;
+    right: 50px;
+    color: white;
   }
   #countdown .box {
     padding: 10px;
-    border-right: solid 1px rgba(255, 255, 255, 0.2);
+    border-right: solid 1px rgba(255, 255, 255, 0.6);
+    background-color: black;
   }
   #countdown .col-4:last-child .box {
     border-right-color: transparent;

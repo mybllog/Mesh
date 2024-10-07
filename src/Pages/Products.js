@@ -15,14 +15,14 @@ const Products = () => {
           <p className='font-Opensans font-bold text-base leading-6 lg:leading-5 py-4 lg:py-6'>
             We build platforms, products, and services that help create a simple, joined-up, and personalized experience for everyone.
           </p>
-          <div className='flex py-8 lg:py-16 space-x-8 lg:space-x-12'>
+          <div className='flex py-8 lg:py-16 space-x-8 lg:space-x-28'>
             <div className='flex space-x-3 lg:space-x-9'>
               <p className='w-10 h-14 font-bold font-newRomain text-[#23A6F0] text-4xl lg:text-6xl'>00</p>
-              <p>Projects <br /> Completed</p>
+              <p className='w-10 h-14 font-newRomain font-normal text-black text-2xl'>Projects <br /> Completed</p>
             </div>
             <div className='flex space-x-3 lg:space-x-8'>
               <p className='w-10 h-14 font-bold font-newRomain text-[#23A6F0] text-4xl lg:text-6xl'>00</p>
-              <p>Customers <br /> Reviews</p>
+              <p className='w-10 h-14 font-newRomain font-normal text-black text-2xl'>Customers <br /> Reviews</p>
             </div>
           </div>
         </div>
