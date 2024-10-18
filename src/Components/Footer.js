@@ -20,14 +20,14 @@ const Footer = () => {
           </div>
           <div className='grid grid-cols-2 sm:grid-cols-3 gap-4'>
             <div className='space-y-4 text-black'>
-              <p className='font-Opensans font-bold text-base '>Home</p>
-              <p className='font-Opensans font-normal text-base '>About Us</p>
-              <p className='font-Opensans font-normal text-base '>Our Services</p>
-              <p className='font-Opensans font-normal text-base '>Benefit</p>
+              <p className='font-Opensans font-bold text-base  hover:text-blue-300 '>Home</p>
+              <p className='font-Opensans font-normal text-base  hover:text-blue-300'>About Us</p>
+              <p className='font-Opensans font-normal text-base  hover:text-blue-300'>Our Services</p>
+              <p className='font-Opensans font-normal text-base   hover:text-blue-300'>Benefit</p>
             </div>
-            <div className='space-y-4 text-black'>
-              <p className='font-Opensans font-bold text-base '>Platform</p>
-              <p className='font-Opensans font-normal text-base '>Terms of Use</p>
+            <div className='space-y-4 text-black '>
+              <p className='font-Opensans font-bold text-base hover:text-blue-300'>Platform</p>
+              <p className='font-Opensans font-normal text-base hover:text-blue-300 '>Terms of Use</p>
             </div>
             <div className='space-y-4 text-black'>
               <p className='font-Opensans font-bold text-base '>Social Media</p>

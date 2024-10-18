@@ -7,9 +7,9 @@ class CountDown extends Component {
     super(props);
     this.count = this.count.bind(this);
     this.state = {
-      days: 10,
+      days: 33,
       minutes: 5,
-      hours: 20,
+      hours: 1,
       secounds: 10,
       time_up: ""
     };
@@ -43,7 +43,7 @@ class CountDown extends Component {
     }
   }
   componentDidMount() {
-    this.deadline = new Date("Oct 20, 2024 21:00:00").getTime();
+    this.deadline = new Date("november 20, 2024 21:00:00").getTime();
 
     this.x = setInterval(this.count, 1000);
   }

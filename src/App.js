@@ -8,6 +8,8 @@ import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import Careers from "./Pages/Careers/Careers";
 import Events from "./Pages/Events";
+import Signup from "./Pages/Signup";
+import Signin from "./Pages/Signin";
 function App() {
   return (
     <Router>
@@ -19,6 +21,8 @@ function App() {
         <Route path="/products" element={<Products />} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/events" element={<Events />} />
+        <Route path="/sign-up" element={<Signup />} />
+        <Route path="/sign-in" element={<Signin />} />
       </Routes>
       <Footer />
     </Router>
