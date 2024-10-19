@@ -20,8 +20,8 @@ const Home = () => {
     <div className="relative w-full h-auto overflow-x-hidden">
       {/* Hero Section */}
       <header className="relative w-full h-full ">
-        <img src={img1} alt="Innovative solutions backdrop" className="w-full  h-full object-cover" />
-        <div className="absolute top-12 xl:top-40 md:top-32 left-4 md:left-1/2 md:-translate-x-1/2 lg:left-20 lg:translate-x-0 text-white w-full px-4  lg:w-auto text-center lg:text-left">
+        <img src={img1} alt="Innovative solutions backdrop" className=" w-screen h-screen md:w-full md:h-full lg:w-full  lg:h-full object-cover" />
+        <div className="absolute top-12 xl:top-40 md:top-32 left-4 md:left-1/2 md:-translate-x-1/2 lg:left-20 lg:translate-x-0 text-white w-full px-4  lg:w-auto  lg:text-left">
     <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold font-newRomain leading-tight">
       Where Innovation <br /> Meets Boundless <br /> Possibilities
     </h1>
@@ -29,7 +29,7 @@ const Home = () => {
       With an unwavering dedication to innovation and <br /> excellence, we shape tomorrow's solutions. Join <br /> us as we harness
       technology's power to create <br /> inspiring, transformative experiences, shaping a <br /> brighter future.
     </p>
-    <div className="mt-4 w-40 lg:w-36 lg:h-10 bg-[#D9D9D9] rounded-lg cursor-pointer mx-auto lg:mx-0">
+    <div className="mt-4 w-40 lg:w-36 lg:h-10 bg-[#D9D9D9] rounded-lg cursor-pointer  lg:mx-0">
       <div className="flex items-center justify-center h-full text-black">
         <p className="mr-2 font-Opensans font-semibold text-sm">
           Get started
