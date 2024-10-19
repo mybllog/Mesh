@@ -27,7 +27,7 @@ const About = () => {
     <h1 className='font-newRomain font-bold text-2xl lg:text-4xl leading-10 text-center md:text-center lg:text-left'>
       Our Mission @ Mesh
     </h1>
-    <p className='font-Opensans font-semibold text-base lg:text-lg mt-6 leading-7 text-center md:text-center lg:text-left'>
+    <p className='font-Opensans font-semibold text-sm md:text-base lg:text-lg mt-6 leading-7 text-center md:text-center lg:text-left'>
       Our mission is to connect people with the services and products they need, 
       regardless of their location. We strive to introduce innovative methods that 
       enhance both the delivery and perception of these services, while leveraging 

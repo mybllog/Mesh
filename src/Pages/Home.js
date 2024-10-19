@@ -19,13 +19,13 @@ const Home = () => {
       </Helmet>
     <div className="relative w-full h-auto overflow-x-hidden">
       {/* Hero Section */}
-      <header className="relative w-full h-full ">
-        <img src={img1} alt="Innovative solutions backdrop" className=" w-screen h-screen md:w-full md:h-full lg:w-full  lg:h-full object-cover" />
-        <div className="absolute top-12 xl:top-40 md:top-32 left-4 md:left-1/2 md:-translate-x-1/2 lg:left-20 lg:translate-x-0 text-white w-full px-4  lg:w-auto  lg:text-left">
+      <header className="relative w-full h-full bg-black inset-0 ">
+        <img src={img1} alt="Innovative solutions backdrop" className=" w-full relative h-screen md:w-full md:h-full lg:w-full  lg:h-full object-cover" />
+        <div className="absolute top-20 xl:top-40 md:top-32 left-4 md:left-1/2 md:-translate-x-1/2 lg:left-20 lg:translate-x-0 text-white w-full px-4  lg:w-auto  lg:text-left">
     <h1 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold font-newRomain leading-tight">
       Where Innovation <br /> Meets Boundless <br /> Possibilities
     </h1>
-    <p className="mt-4 text-xs sm:text-lg lg:text-base xl:text-xl font-bold font-Opensans">
+    <p className="mt-4 text-sm sm:text-lg lg:text-base xl:text-xl font-bold font-Opensans">
       With an unwavering dedication to innovation and <br /> excellence, we shape tomorrow's solutions. Join <br /> us as we harness
       technology's power to create <br /> inspiring, transformative experiences, shaping a <br /> brighter future.
     </p>
